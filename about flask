@@ -1,0 +1,49 @@
+Flask Framework
+
+1. WSGI--> web server gateway Interface
+2.jinja2 Template engine
+
+Flask-->web framework which is created with the python programming language
+
+que--> what exactly the flask framework??
+ans--> Flask is a Python web framework that helps you build web servers and web applications
+------------------WSGI-------------------
+WSGI = a bridge between a Web Server and a Python application.
+It is a standard specification that defines how they communicate.
+
+🔹 What Does It Define?
+WSGI defines:
+
+(A) How the web server sends a request to the Python application
+(B) How the Python application sends a response back to the server
+
+That’s it.
+
+🔹 Why Is This Needed?
+
+Without WSGI:
+
+Every Python framework would talk to servers differently.
+Every server would need custom code for every framework.
+It would be chaotic.
+
+----------------------jinja2----------------------------
+2.What is Jinja2?
+
+Jinja (often called Jinja2) is a template engine for Python.
+It is used to generate HTML dynamically.
+
+
+🔹 Why Do We Need Jinja2?
+
+Without Jinja:
+You would have to build HTML as plain strings inside Python.
+That becomes ugly and unmaintainable.
+
+With Jinja:
+
+HTML stays in .html files
+Python sends data to those files
+Jinja inserts the data properly
+Clean separation. Professional structure.
+
